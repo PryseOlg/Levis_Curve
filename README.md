@@ -5,4 +5,4 @@ C# application, using Windows Forms, that draw any level of Levis curve, level
 The fractal is selected using a drawn tree, each level of which has its own color. You need to click the mouse button on the desired level, then this level will be displayed in the corresponding field. Then click the Draw button and a fractal of the desired level corresponding to the color will be drawn.
 
 # Screenshots
-[Screens](https://docs.google.com/presentation/d/1-Rh4wb2cBCazmrbsjsgXqJe6vlHd38X7NIqtQoAsMNY/edit?usp=sharing)
+[Screen](https://drive.google.com/file/d/0B2o5DZ5T-6k8T2ZISnR2WjV5WHc/view?usp=sharing)
