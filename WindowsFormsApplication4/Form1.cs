@@ -43,7 +43,7 @@ namespace WindowsFormsApplication4
         void Build(int iterations)
         {
             path = new GraphicsPath();
-            Draw_Levy(path, 80, 230, 150, 150, iterations);
+            Draw_Levy(path, 320, 920, 600, 600, iterations);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -52,8 +52,6 @@ namespace WindowsFormsApplication4
             mainColor = Color.Black;
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.UserPaint, true);
             BackColor = Color.White;
-            pictureBox2.Image = Image.FromFile("../../res/tree.png");
-            pictureBox2.SizeMode = pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             initColors();
         }
 
@@ -122,5 +120,14 @@ namespace WindowsFormsApplication4
             colors.Add(Color.FromArgb(0, 112, 192)); //15 (Темно голубой)
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
